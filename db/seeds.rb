@@ -66,7 +66,33 @@ c18 = Coordinate.create(latitude: 40.69294, longitude: -73.99097, location_id: l
 c19 = Coordinate.create(latitude: 40.704360666845, longitude: -74.0088620416641, location_id: l19.id)
 c20 = Coordinate.create(latitude: 40.68796369, longitude: -73.97794137, location_id: l20.id)
 
-puts("seeded success")
+i1 = Image.create(image_url: "https://images.ctfassets.net/drib7o8rcbyf/6BZlQfeoSO91qcgz9O4uEN/8bdb250270323fbe31e7f6dca201e9c2/Equinox_ClubPage_OtherLocations_DUMBO_2300x1533-min.jpg", location_id: l1.id)
+i2 = Image.create(image_url: "https://s3-media0.fl.yelpcdn.com/bphoto/j6_exyS9WexzWcld7Jr-6Q/o.jpg", location_id: l2.id)
+i3 = Image.create(image_url: "https://s3-media0.fl.yelpcdn.com/bphoto/nsKnkK9Zb1j3N6ieqQYfOg/l.jpg", location_id: l3.id)
+i4 = Image.create(image_url: "https://cdn.vox-cdn.com/thumbor/7-PSHCBFVfEZP6ZO3aNQ9a_cWlM=/33x0:553x390/1200x800/filters:focal(33x0:553x390)/cdn.vox-cdn.com/uploads/chorus_image/image/48491823/corp129763.0.0.jpg", location_id: l4.id)
+i5 = Image.create(image_url: "https://patch.com/img/cdn20/users/22864368/20160817/103333/styles/raw/public/article_images/weights-1471444379-4921.jpg", location_id: l5.id)
+i6 = Image.create(image_url: "https://www.easternathleticclub.net/uploads/4/6/1/1/4611572/img-0610_orig.jpg", location_id: l6.id)
+i7 = Image.create(image_url: "https://s3-media2.fl.yelpcdn.com/bphoto/Yqs_jYg3JOCNXUxeAStAMw/o.jpg", location_id: l7.id)
+i8 = Image.create(image_url: "https://s3.amazonaws.com/msc-media-linux-production/club_detail/59dd3c7d34f3d.jpg", location_id: l8.id)
+i9 = Image.create(image_url: "https://media.chelseapiers.com/images/fitness/2019/1540x680/pool_BK_VTG_6372_3_4_5_6-1540x680.jpg", location_id: l9.id)
+i10 = Image.create(image_url: "https://www.bodyelitegym.com/files/2019-09-15_16_10_40_cardio_entry.jpg", location_id: l10.id)
+i11 = Image.create(image_url: "http://cdn.brownstoner.com/wp-content/uploads/2016/02/equinox-dumbo-gym-brooklyn.jpg", location_id: l11.id)
+i12 = Image.create(image_url: "https://www.planetfitness.com/sites/default/files/styles/gallery_full_image/public/club-photos/108/Brooklyn__Duffield___NY_photo_12_0.jpg?itok=AiD22olU", location_id: l12.id)
+i13 = Image.create(image_url: "https://images.squarespace-cdn.com/content/v1/5651f080e4b027b5078a9fe2/1451775685073-HVXH9TRG98DC7Z6EWDSI/ke17ZwdGBToddI8pDm48kD-CFI3oQkoSH-ysLm3R5Fx7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0ivq7Q1ckvJa8MA8qNUlEObOaiM0gRyeMIyEg--Gieuqj4vKhIhFRp3Uh_lx1-xlNw/Park+Slope+Weight+Room+8.jpg?format=1500w", location_id: l13.id)
+i14 = Image.create(image_url: "https://ymcanyc.org/sites/default/files/styles/prgf_gallery/public/2018-11/banner-dodge-facility-basketball-court.jpg?h=cc341da4&itok=gn8mO8js", location_id: l14.id)
+i15 = Image.create(image_url: "https://d342jfhztpgus0.cloudfront.net/images/281/281739/61e3_946.jpg", location_id: l15.id)
+i16 = Image.create(image_url: "https://upload.wikimedia.org/wikipedia/commons/8/8a/Boxing_ring_at_Gleason%27s_Gym.jpg", location_id: l16.id)
+i17 = Image.create(image_url: "https://s3-media0.fl.yelpcdn.com/bphoto/5opR6GP8cKUorSdD2HXgfg/o.jpg", location_id: l17.id)
+i18 = Image.create(image_url: "https://d1k8hez1mxkuxw.cloudfront.net/users/1512288/seller/profile/form-fitness-brooklyn-5bef4a192dbec.png", location_id: l18.id)
+i19 = Image.create(image_url: "https://www.completebody.com/wp-content/uploads/2019/12/DSC5067.jpg", location_id: l19.id)
+i20 = Image.create(image_url: "https://classpass-res.cloudinary.com/image/upload/f_auto,q_auto/c253nckiuqyie2ixtndf.png", location_id: l20.id)
+
+r1 = Review.create(review_content: 'I have been a member here for years and I love it. The gym is clean and management works to ensure members are happy. The classes are great and equipment is...', location_id: l1.id, user_id: u1.id)
+
+r2 = Review.create(review_content: "Don't sign up. Don't do it. They will not let you cancel your membership... not even when you have very valid reasons. I have been trying to get my...", location_id: l1.id, user_id: u1.id)
+
+
+puts("successfully seeded")
 
 
 

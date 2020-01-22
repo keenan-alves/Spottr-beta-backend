@@ -1,17 +1,17 @@
 class ImagesController < ApplicationController
 
     def index
-        @images = image.all
+        @images = Image.all
         render json: @images 
     end
 
     def create
-        @image = image.create(image_params)
+        @image = Image.create(image_params)
         render json: @image 
     end 
 
     def show
-        @image = image.find(params[:id])
+        @image = Image.find(params[:id])
         render json: @image
     end 
 
